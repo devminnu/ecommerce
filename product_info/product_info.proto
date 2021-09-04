@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "product_info";
+option go_package = "/product_info";
 
 service ProductInfo {
   rpc GetProduct(ProductID) returns (Product);
